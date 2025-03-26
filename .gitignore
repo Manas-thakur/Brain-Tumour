@@ -1,0 +1,47 @@
+# Kaggle credentials
+kaggle.json
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Distribution / packaging
+dist/
+build/
+downloads/
+eggs/
+lib/
+lib64/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Downloaded datasets
+brain-tumor-mri-dataset/
+
+# PyTorch model checkpoints
+*.pth
+*.pt
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
