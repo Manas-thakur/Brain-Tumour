@@ -1,5 +1,4 @@
-<div align="center">ion
-  <img src="https://i.imgur.com/X7dSADv.png" alt="Brain Tumor Detection" width="300px">
+<div align="center">
   <h1>Brain Tumor MRI Detection and Classification</h1>
   
   [![Brain Tumor Detection](https://img.shields.io/badge/Medical-AI-blue)](https://github.com/yourusername/Brain-tumour)
@@ -13,22 +12,22 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
-- [Project Overview](#-project-overview)
-- [Dataset Description](#-dataset-description)
-- [Model Architecture](#-model-architecture)
-- [Technical Implementation](#-technical-implementation)
-- [Installation Guide](#%EF%B8%8F-installation-guide)
-- [Usage Instructions](#-usage-instructions)
-- [Performance Results](#-performance-results)
-- [Future Development](#-future-development)
-- [References & Acknowledgments](#-references--acknowledgments)
-- [License Information](#-license-information)
+- [Project Overview](#project-overview)
+- [Dataset Description](#dataset-description)
+- [Model Architecture](#model-architecture)
+- [Technical Implementation](#technical-implementation)
+- [Installation Guide](#installation-guide)
+- [Usage Instructions](#usage-instructions)
+- [Performance Results](#performance-results)
+- [Future Development](#future-development)
+- [References & Acknowledgments](#references--acknowledgments)
+- [License Information](#license-information)
 
 ---
 
-## 🔍 Project Overview
+## Project Overview
 
 This research-grade project implements a novel **multi-task deep learning model** that simultaneously performs two critical medical imaging tasks:
 
@@ -43,7 +42,7 @@ The project addresses the critical need for automated diagnostic tools in neuro-
 
 ---
 
-## 📊 Dataset Description
+## Dataset Description
 
 The model is trained and validated on the comprehensive [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset) from Kaggle, which features:
 
@@ -82,23 +81,13 @@ The model is trained and validated on the comprehensive [Brain Tumor MRI Dataset
   </table>
 </div>
 
-<div align="center">
-  <img src="https://i.imgur.com/JKtVyKZ.png" alt="Sample MRI Images" width="600px">
-  <p><i>Sample MRI images from the dataset showing different tumor types</i></p>
-</div>
-
 The dataset is automatically fetched and processed using the OpenDatasets library. Images are standardized to 128×128 pixels and normalized to ensure consistent training.
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 The core of this project is a **Multi-Task U-Net architecture** that efficiently shares feature extraction while maintaining task-specific outputs:
-
-<div align="center">
-  <img src="https://i.imgur.com/L8bA5rG.png" alt="Multi-Task U-Net Architecture" width="700px">
-  <p><i>Simplified diagram of the Multi-Task U-Net architecture</i></p>
-</div>
 
 ### Key Architectural Components:
 
@@ -111,7 +100,7 @@ The architecture balances the dual objectives of precise segmentation and accura
 
 ---
 
-## 💻 Technical Implementation
+## Technical Implementation
 
 ### Framework & Libraries
 
@@ -153,7 +142,7 @@ The model is trained using a supervised learning approach with these key steps:
 
 ---
 
-## 🛠️ Installation Guide
+## Installation Guide
 
 ### Prerequisites
 
@@ -194,7 +183,7 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 
 ---
 
-## 🚀 Usage Instructions
+## Usage Instructions
 
 ### Training a New Model
 
@@ -261,7 +250,7 @@ plt.show()
 
 ---
 
-## 📈 Performance Results
+## Performance Results
 
 ### Model Accuracy
 
@@ -292,18 +281,11 @@ After 5 epochs of training, the model achieves impressive performance metrics:
   </table>
 </div>
 
-### Sample Predictions
-
-<div align="center">
-  <img src="https://i.imgur.com/NSrYlHQ.png" alt="Model predictions" width="800px">
-  <p><i>Sample predictions showing original MRI scans, ground truth, and model predictions</i></p>
-</div>
-
 The model demonstrates robust performance across different tumor types, with particularly high accuracy in distinguishing between glioma and meningioma tumors, which can be challenging even for experienced radiologists.
 
 ---
 
-## 🔮 Future Development
+## Future Development
 
 The project has several promising avenues for future enhancement:
 
@@ -320,7 +302,7 @@ The project has several promising avenues for future enhancement:
 
 ---
 
-## 🙏 References & Acknowledgments
+## References & Acknowledgments
 
 ### Dataset
 - [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset) by Masoud Nickparvar on Kaggle
@@ -336,6 +318,6 @@ The project has several promising avenues for future enhancement:
 
 ---
 
-## 📄 License Information
+## License Information
 
 This project is released under the MIT License - see the [LICENSE](LICENSE) file for details.
