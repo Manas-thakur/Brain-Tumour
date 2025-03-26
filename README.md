@@ -185,6 +185,13 @@ The model is trained using a supervised learning approach with these key steps:
    python -c "import torch; print(f'PyTorch version: {torch.__version__}, CUDA available: {torch.cuda.is_available()}')"
    ```
 
+### PyTorch Installation
+To install PyTorch with CUDA 11.8 support, use the following command:
+
+```bash
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+```
+
 ---
 
 ## 🚀 Usage Instructions
