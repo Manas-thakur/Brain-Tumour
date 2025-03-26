@@ -7,13 +7,6 @@ matplotlib>=3.3.0
 opencv-python>=4.5.0
 opendatasets>=0.1.20
 
-# PyTorch and related libraries
-# Note: PyTorch should be installed using the command above for CUDA 11.8 support
-# The following are included for completeness but will be overridden by the pip3 command
-torch>=2.0.0
-torchvision>=0.15.0
-torchaudio>=2.0.0
-
 # Additional utilities
 scikit-learn>=1.0.0
 pillow>=8.0.0
